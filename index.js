@@ -196,7 +196,7 @@ autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = setting.ownername
-apiku = 'https://zeeoneofc.github.io/'
+apiku = 'http://wa.me/6289668014332'
 gc_wa_lu = 'https://chat.whatsapp.com/Ev930hwkdnrAON0V6za57c' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
@@ -2811,7 +2811,7 @@ case 'bcgif':
 					"displayName": `${ini_list.length} kontak`,
 					"contacts": ini_list 
 					}, 'contactsArrayMessage', { quoted: fkontak})
-					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
+					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, gak maksa save kakak😇`
 var buttonss = [
 {buttonId: 'donasi', buttonText:{displayText: 'Donasi'}, type: 1},
 {buttonId: 'sewabot', buttonText:{displayText: 'Sewa'}, type: 1}
@@ -3423,7 +3423,7 @@ break
 						if (isMedia && !mek.message.videoMessage || isQuotedImage) {
 							const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : mek
 							const media = await alpha.downloadAndSaveMediaMessage(encmedia, `./sticker/${sender}`)
-							exif.create('Created By', 'ZeeoneOfc', `stickwm_${sender}`)
+							exif.create('Created By', 'Tata', `stickwm_${sender}`)
 							//ran = getRandom('.webp')
                         await ffmpeg(`./${media}`)
                             .input(media)
